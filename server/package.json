@@ -1,0 +1,17 @@
+{
+  "name": "rehearsal-scheduler-server",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.0",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.10.0",
+    "prisma": "^5.0.0",
+    "nodemailer": "^6.9.0"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  }
+}
